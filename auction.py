@@ -13,9 +13,8 @@ class Auction:
     #  Does amount_in/amount_out flip when sell order bool is true/false? We need to DOUBLE CHECK
     def addBid(self, new_bid):
         print("Adding bid")
-        self.best_bid = new_bid
-        # if self.best_bid == {} \
-        # or (self.is_sell_order and new_bid["amount_in"] > self.best_bid["amount_in"]) \
-        # or (not self.is_sell_order and new_bid["amount_in"] < self.best_bid["amount_in"]):
-        #     self.best_bid = new_bid
+        if self.best_bid == {} \
+        or (self.is_sell_order and new_bid["amount_in"] > self.best_bid["amount_in"]) \
+        or (not self.is_sell_order and new_bid["amount_in"] < self.best_bid["amount_in"]):
+            self.best_bid = new_bid
 
