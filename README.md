@@ -11,7 +11,7 @@ The offchain services consists of 2 parts:
 
 ## Usage
 
-Running main.py will start the websocket and REST API on 2 different services.
+Running main.py will start the websocket and REST API on 2 different servers.
 - REST API: http://127.0.0.1:5000/cow
 - websocket: [ws://localhost:8765/](ws://localhost:8765/)
 
