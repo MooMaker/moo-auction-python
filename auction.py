@@ -14,7 +14,7 @@ class Auction:
     def addBid(self, new_bid):
         print("Adding bid")
         if self.best_bid == {} \
-        or (self.is_sell_order and new_bid["amount_in"] > self.best_bid["amount_in"]) \
-        or (not self.is_sell_order and new_bid["amount_in"] < self.best_bid["amount_in"]):
+        or (self.is_sell_order and new_bid.get("amountIn") > self.best_bid.get("amountIn")) \
+        or (not self.is_sell_order and new_bid.get("amountIn") < self.best_bid.get("amountIn")):
             self.best_bid = new_bid
 
