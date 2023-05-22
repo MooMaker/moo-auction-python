@@ -17,7 +17,9 @@ class MarketMakerWebsocket:
 
     async def receive_bids(self, connection):
         # This gets latest auction
-        # TODO: Implement a proper check on auction ID. Maybe create a seperate WS endpoint for each auction?
+        # TODO: Implement a proper check on auction ID.
+        #  Maybe create a seperate WS endpoint for each auction? (faster)
+        #  or auctionid as field (slower)
         auction_id = len(self.auctions)
 
         # TODO: Move this to seperate connection management function (also manage disconnects)
@@ -26,8 +28,13 @@ class MarketMakerWebsocket:
 
 
         async for message in connection:
-            self.auctions[0].addBid(message)
-            await connection.send(message)
+            auction_id = 0
+            new_bid = json.loads(message)
+            try:
+                self.auctions[auction_id].addBid(new_bid)
+                await connection.send("received bid")
+            except (KeyError):
+                await connection.send("ERROR: These is no auction with auctionId " + str(auction_id))
 
     async def forward_auction(self, message):
         for ws in self.connections:
