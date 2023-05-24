@@ -29,11 +29,13 @@ class MarketMakerWebsocket:
 
         async for message in connection:
             auction_id = 0
+            order_id = 0
             new_bid = json.loads(message)
             try:
-                self.auctions[auction_id].addBid(new_bid)
+                self.auctions[auction_id].addBid(order_id, new_bid)
                 await connection.send("received bid")
             except (KeyError):
+                # Todo: error handling when order_id is wrong
                 await connection.send("ERROR: These is no auction with auctionId " + str(auction_id))
 
     async def forward_auction(self, message):

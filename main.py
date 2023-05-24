@@ -5,7 +5,6 @@ import asyncio
 import threading
 import time
 
-
 marketmakerwebsocket = MarketMakerWebsocket()
 
 app = Flask(__name__)
@@ -13,16 +12,20 @@ app = Flask(__name__)
 @app.post("/cow")
 async def cow_auction():
     if request.is_json:
-        # TODO: Add query params (auction ID and endtime) to fwd msg
-        auction_id = len(marketmakerwebsocket.auctions)
-        sleeptime = 5
+        # TODO: Do validation on query params (REQUIRED)
         auction_json = request.get_json()
+        auction_id  = int(request.args.get("auction_id"))
+        end_time = request.args.get("end_time")
+        auction_json["auction_id"] = auction_id
+        auction_json["end_time"] = end_time
         await marketmakerwebsocket.forward_auction(auction_json)
 
-        # TODO create auction based on unique ID and set timer
-        marketmakerwebsocket.auctions[len(marketmakerwebsocket.auctions)] = Auction(auction_json, auction_id, sleeptime)
+        # TODO create auction for each order (group under auction_id)
+        marketmakerwebsocket.auctions[auction_id] = Auction(auction_json)
 
         # TODO implement proper timing
+
+        sleeptime = 5
         time.sleep(sleeptime)
 
 
