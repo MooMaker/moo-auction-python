@@ -1,0 +1,13 @@
+{
+  "0": {
+    "tokenIn": "0x752efadc0a7e05ad1bcccda22c141d01a75ef1e4",
+    "tokenOut": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+    "amountIn": "306635689186984646942",
+    "amountOut": "408457178963175500",
+    "validTo": 1628035200,
+    "makerAddress": [
+      "0x8165049D60CAE302F0540134Dcf0939e0Fbf142f"
+    ],
+    "makerSignature": "0x8165049D60CAE302F0540134Dcf0939e0Fbf142f"
+  }
+}

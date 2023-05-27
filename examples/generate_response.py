@@ -53,4 +53,4 @@ def write_file(response_dict, filename="sample.json"):
     with open(filename, "w") as outfile:
         outfile.write(json_object)
 
-generate_three_responses('../examples/single_order_shared_instances/single_order_instance1_input.json')
+generate_three_responses('../examples/same_pair_orders_shared_instances/same_pair_orders_instance2_input.json')

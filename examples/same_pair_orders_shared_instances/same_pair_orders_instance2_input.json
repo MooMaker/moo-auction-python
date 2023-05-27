@@ -1342,6 +1342,8 @@
         }
     },
     "metadata": {
+        "auction_id": 0,
+        "time_limit": 5,
         "environment": "Ethereum"
     }
 }
