@@ -1319,6 +1319,7 @@
         }
     },
     "metadata": {
+        "auction_id": "0",
         "environment": "Ethereum"
     }
 }

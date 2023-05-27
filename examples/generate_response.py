@@ -1,4 +1,6 @@
 import json
+import random
+
 
 def generate_three_responses(filepath):
     market_makers = [
@@ -34,7 +36,9 @@ def generate_response(filepath, market_maker, filename="sample.json"):
         validTo = 1628035200
         makerAddress = market_maker[0],
         makerSignature = market_maker[0]
-        # TODO: randomize maker details
+
+        # Randomize amountInt a little bit
+        amountIn = str(int(int(amountIn) * (100+random.randint(-5,5))/100))
 
         response[order_id] = {"tokenIn": tokenIn, "tokenOut": tokenOut, "amountIn": amountIn, "amountOut": amountOut,
                               "validTo": validTo, "makerAddress": makerAddress, "makerSignature": makerSignature }
