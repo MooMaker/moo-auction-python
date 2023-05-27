@@ -23,14 +23,14 @@ class Auction:
     def add_bid(self, order_id, new_bid):
         best_bid = self.best_bid[order_id]
         is_sell_order = self.is_sell_order[order_id]
-
-        print("Comparing bid")
+        print("Comparing bids")
         if best_bid == {} \
         or (is_sell_order and int(new_bid.get("amountIn")) > int(best_bid.get("amountIn"))) \
         or (not is_sell_order and int(new_bid.get("amountIn")) < int(best_bid.get("amountIn"))):
-            # if self.validate_bid(order_id, new_bid):
-            print("Updating best_bird for order " + str(order_id))
-            self.best_bid[order_id] = new_bid
+            # TODO: ADD VALIDATE
+            if self.validate_bid(order_id, new_bid):
+                print("Updating best_bird for order " + str(order_id))
+                self.best_bid[order_id] = new_bid
 
     def validate_bid(self, order_id, bid) -> bool:
         # TODO: What should we do if there is 1 invalid bid in a MM response? Do we still parse the remaining bids of this response?
