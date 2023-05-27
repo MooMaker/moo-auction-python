@@ -9,7 +9,7 @@ marketmakerwebsocket = MarketMakerWebsocket()
 
 app = Flask(__name__)
 
-@app.post("/cow")
+@app.post("/cow/auction")
 async def cow_auction():
     if request.is_json:
         # TODO: Do validation on query params (REQUIRED)
@@ -28,8 +28,20 @@ async def cow_auction():
         sleeptime = 5
         time.sleep(sleeptime)
 
-
         return marketmakerwebsocket.auctions[auction_id].best_bid, 200
+    return {"error": "Request must be JSON"}, 415
+
+@app.post("/cow/results")
+async def result():
+    if request.is_json:
+        auction_json = request.get_json()
+        auction_id  = auction_json["auction_id"]
+        results = auction_json["results"]
+        if (results):
+            print("informing winning MMs")
+        else:
+            print("no winner")
+        return {}, 204
     return {"error": "Request must be JSON"}, 415
 
 def restapi():
