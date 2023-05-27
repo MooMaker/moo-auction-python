@@ -1,0 +1,133 @@
+{
+    "amms": {
+        "16": {
+            "cost": {
+                "amount": "13030697948945712",
+                "token": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2"
+            },
+            "execution": [
+                {
+                    "buy_token": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+                    "exec_buy_amount": "17124913560661344292",
+                    "exec_plan": {
+                        "position": 0,
+                        "sequence": 0
+                    },
+                    "exec_sell_amount": "81386038175137481705376",
+                    "sell_token": "0x6b175474e89094c44da98b954eedeac495271d0f"
+                }
+            ],
+            "fee": "0.003000",
+            "kind": "ConstantProduct",
+            "mandatory": false,
+            "reserves": {
+                "0x6b175474e89094c44da98b954eedeac495271d0f": "4.543061e+25",
+                "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2": "9.513571e+21"
+            }
+        },
+        "54": {
+            "cost": {
+                "amount": "16512669530640000",
+                "token": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2"
+            },
+            "execution": [
+                {
+                    "buy_token": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+                    "exec_buy_amount": "29848948816003240125",
+                    "exec_plan": {
+                        "position": 1,
+                        "sequence": 0
+                    },
+                    "exec_sell_amount": "141974444865517734072233",
+                    "sell_token": "0x6b175474e89094c44da98b954eedeac495271d0f"
+                }
+            ],
+            "fee": "0.002100",
+            "kind": "WeightedProduct",
+            "mandatory": false,
+            "reserves": {
+                "0x6b175474e89094c44da98b954eedeac495271d0f": {
+                    "balance": "45225890257813221064917710",
+                    "weight": "0.400000"
+                },
+                "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2": {
+                    "balance": "14195361755419550610193",
+                    "weight": "0.600000"
+                }
+            }
+        },
+        "58": {
+            "amplification_parameter": "620.000000",
+            "cost": {
+                "amount": "16512669530640000",
+                "token": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2"
+            },
+            "execution": [
+                {
+                    "buy_token": "0x6b175474e89094c44da98b954eedeac495271d0f",
+                    "exec_buy_amount": "223360483040688034759725",
+                    "exec_plan": {
+                        "position": 2,
+                        "sequence": 0
+                    },
+                    "exec_sell_amount": "223324953954",
+                    "sell_token": "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48"
+                }
+            ],
+            "fee": "0.000100",
+            "kind": "Stable",
+            "mandatory": false,
+            "reserves": {
+                "0x6b175474e89094c44da98b954eedeac495271d0f": "55669386559840172942527382",
+                "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48": "53812817778047",
+                "0xdac17f958d2ee523a2206206994597c13d831ec7": "48079598510280"
+            }
+        }
+    },
+    "metadata": {
+        "has_solution": true,
+        "result": "Optimal"
+    },
+    "orders": {
+        "0": {
+            "allow_partial_fill": false,
+            "buy_amount": "222021573543",
+            "buy_token": "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48",
+            "cost": {
+                "amount": "9125313999369930",
+                "token": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2"
+            },
+            "exec_buy_amount": "223324953954",
+            "exec_sell_amount": "46973862376664587832",
+            "fee": {
+                "amount": "36137623335412168",
+                "token": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2"
+            },
+            "is_liquidity_order": false,
+            "is_sell_order": true,
+            "mandatory": false,
+            "sell_amount": "46973862376664587832",
+            "sell_token": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2"
+        }
+    },
+    "prices": {
+        "0x6b175474e89094c44da98b954eedeac495271d0f": "208817709889146",
+        "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48": "210338618882191940946459280",
+        "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2": "1000000000000000000"
+    },
+    "ref_token": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+    "tokens": {
+        "0x6b175474e89094c44da98b954eedeac495271d0f": {
+            "alias": "DAI",
+            "decimals": 18
+        },
+        "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48": {
+            "alias": "USDC",
+            "decimals": 6
+        },
+        "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2": {
+            "alias": "WETH",
+            "decimals": 18
+        }
+    }
+}

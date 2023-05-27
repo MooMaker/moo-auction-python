@@ -1,0 +1,2116 @@
+{
+    "tokens": {
+        "0x03ab458634910aad20ef5f1c8ee96f1d6ac54919": {
+            "decimals": 18,
+            "alias": "RAI",
+            "external_price": 0.0006618442748467505,
+            "normalize_priority": 0,
+            "internal_buffer": "4106217917128523846795"
+        },
+        "0x04fa0d235c4abf4bcf4787af4cf447de572ef828": {
+            "decimals": 18,
+            "alias": "UMA",
+            "external_price": 0.0035580034612940348,
+            "normalize_priority": 0,
+            "internal_buffer": "948643248968460895160"
+        },
+        "0x0bc529c00c6401aef6d220be8c6ea1667f6ad93e": {
+            "decimals": 18,
+            "alias": "YFI",
+            "external_price": 7.133477933827677,
+            "normalize_priority": 0,
+            "internal_buffer": "172166759331260832"
+        },
+        "0x0cec1a9154ff802e7934fc916ed7ca50bde6844e": {
+            "decimals": 18,
+            "alias": "POOL",
+            "external_price": 0.0023043286454127255,
+            "normalize_priority": 0,
+            "internal_buffer": "319450665472536593675"
+        },
+        "0x0ff5a8451a839f5f0bb3562689d9a44089738d11": {
+            "decimals": 18,
+            "alias": "rDPX",
+            "external_price": 0.01958372081355001,
+            "normalize_priority": 0,
+            "internal_buffer": "48074869137030146590"
+        },
+        "0x111111111117dc0aa78b770fa6a738034120c302": {
+            "decimals": 18,
+            "alias": "1INCH",
+            "external_price": 0.0009042743958736171,
+            "normalize_priority": 0,
+            "internal_buffer": "199752352258278036143"
+        },
+        "0x1494ca1f11d487c2bbe4543e90080aeba4ba3c2b": {
+            "decimals": 18,
+            "alias": "DPI",
+            "external_price": 0.0840143047072067,
+            "normalize_priority": 0,
+            "internal_buffer": "1049182574757442518"
+        },
+        "0x18aaa7115705e8be94bffebde57af9bfc265b998": {
+            "decimals": 18,
+            "alias": "AUDIO",
+            "external_price": 0.0004919243717834605,
+            "normalize_priority": 0,
+            "internal_buffer": "303568400054356092900"
+        },
+        "0x1b40183efb4dd766f11bda7a7c3ad8982e998421": {
+            "decimals": 18,
+            "alias": "VSP",
+            "external_price": 0.001520878251559956,
+            "normalize_priority": 0,
+            "internal_buffer": "437186532097648092450"
+        },
+        "0x1f9840a85d5af5bf1d1762f925bdaddc4201f984": {
+            "decimals": 18,
+            "alias": "UNI",
+            "external_price": 0.00532909887021657,
+            "normalize_priority": 0,
+            "internal_buffer": "121228420874467284726"
+        },
+        "0x2260fac5e5542a773aa44fbcfedf7c193bc2c599": {
+            "decimals": 8,
+            "alias": "WBTC",
+            "external_price": 139174079774.02582,
+            "normalize_priority": 0,
+            "internal_buffer": "7039688"
+        },
+        "0x2ba592f78db6436527729929aaf6c908497cb200": {
+            "decimals": 18,
+            "alias": "CREAM",
+            "external_price": 0.01872748846230812,
+            "normalize_priority": 0,
+            "internal_buffer": "1319896554666704556"
+        },
+        "0x35a18000230da775cac24873d00ff85bccded550": {
+            "decimals": 8,
+            "alias": "cUNI",
+            "external_price": 1813940.152319275,
+            "normalize_priority": 0,
+            "internal_buffer": "0"
+        },
+        "0x3845badade8e6dff049820680d1f14bd3903a5d0": {
+            "decimals": 18,
+            "alias": "SAND",
+            "external_price": 0.0005694252919593806,
+            "normalize_priority": 0,
+            "internal_buffer": "1314916061357216981027"
+        },
+        "0x3ec8798b81485a254928b70cda1cf0a2bb0b74d7": {
+            "decimals": 18,
+            "alias": "GRO",
+            "external_price": 0.0021890066091621585,
+            "normalize_priority": 0,
+            "internal_buffer": "415988700562219475927"
+        },
+        "0x514910771af9ca656af840dff83e8264ecf986ca": {
+            "decimals": 18,
+            "alias": "LINK",
+            "external_price": 0.007356538239966172,
+            "normalize_priority": 0,
+            "internal_buffer": "52866116312832386751"
+        },
+        "0x584bc13c7d411c00c01a62e8019472de68768430": {
+            "decimals": 18,
+            "alias": "HEGIC",
+            "external_price": 2.7869165092861494e-05,
+            "normalize_priority": 0,
+            "internal_buffer": "33101149452959504661123"
+        },
+        "0x6123b0049f904d730db3c36a31167d9d4121fa6b": {
+            "decimals": 18,
+            "alias": "RBN",
+            "external_price": 0.0019629533612488806,
+            "normalize_priority": 0,
+            "internal_buffer": "1246497797218147122566"
+        },
+        "0x61d5dc44849c9c87b0856a2a311536205c96c7fd": {
+            "decimals": 18,
+            "alias": "BED",
+            "external_price": null,
+            "normalize_priority": 0,
+            "internal_buffer": "0"
+        },
+        "0x677ddbd918637e5f2c79e164d402454de7da8619": {
+            "decimals": 18,
+            "alias": "VUSD",
+            "external_price": 0.00023286555879694992,
+            "normalize_priority": 0,
+            "internal_buffer": "0"
+        },
+        "0x6810e776880c02933d47db1b9fc05908e5386b96": {
+            "decimals": 18,
+            "alias": "GNO",
+            "external_price": 0.103407084527578,
+            "normalize_priority": 0,
+            "internal_buffer": "36551073457579973698"
+        },
+        "0x6b175474e89094c44da98b954eedeac495271d0f": {
+            "decimals": 18,
+            "alias": "DAI",
+            "external_price": 0.00021772624935562863,
+            "normalize_priority": 0,
+            "internal_buffer": "3983733690183974239325"
+        },
+        "0x6b3595068778dd592e39a122f4f5a5cf09c90fe2": {
+            "decimals": 18,
+            "alias": "SUSHI",
+            "external_price": 0.0023327508083082977,
+            "normalize_priority": 0,
+            "internal_buffer": "532389814464422511800"
+        },
+        "0x6dea81c8171d0ba574754ef6f8b412f2ed88c54d": {
+            "decimals": 18,
+            "alias": "LQTY",
+            "external_price": 0.002861190743600748,
+            "normalize_priority": 0,
+            "internal_buffer": "96081113977177699143"
+        },
+        "0x72e364f2abdc788b7e918bc238b21f109cd634d7": {
+            "decimals": 18,
+            "alias": "MVI",
+            "external_price": 0.054394392515086695,
+            "normalize_priority": 0,
+            "internal_buffer": "3433421993728834413"
+        },
+        "0x7d1afa7b718fb893db30a3abc0cfc608aacfebb0": {
+            "decimals": 18,
+            "alias": "MATIC",
+            "external_price": 0.0003704800831252772,
+            "normalize_priority": 0,
+            "internal_buffer": "5356612711104606191897"
+        },
+        "0x7fc66500c84a76ad7e9c93437bfc5ac33e2ddae9": {
+            "decimals": 18,
+            "alias": "AAVE",
+            "external_price": 0.06657290475154037,
+            "normalize_priority": 0,
+            "internal_buffer": "27722641716976223893"
+        },
+        "0x86ed939b500e121c0c5f493f399084db596dad20": {
+            "decimals": 18,
+            "alias": "SPC",
+            "external_price": 5.178689139570774e-06,
+            "normalize_priority": 0,
+            "internal_buffer": "32914340028683757797937"
+        },
+        "0x8798249c2e607446efb7ad49ec89dd1865ff4272": {
+            "decimals": 18,
+            "alias": "xSUSHI",
+            "external_price": 0.0028141118959671193,
+            "normalize_priority": 0,
+            "internal_buffer": "10636021010421009340"
+        },
+        "0x87d73e916d7057945c9bcd8cdd94e42a6f47f776": {
+            "decimals": 18,
+            "alias": "NFTX",
+            "external_price": 0.026081644242342637,
+            "normalize_priority": 0,
+            "internal_buffer": "47438294969856214110"
+        },
+        "0x949d48eca67b17269629c7194f4b727d4ef9e5d6": {
+            "decimals": 18,
+            "alias": "MC",
+            "external_price": 0.0013036967122550382,
+            "normalize_priority": 0,
+            "internal_buffer": "1541388729597407851287"
+        },
+        "0x9f8f72aa9304c8b593d555f12ef6589cc3a579a2": {
+            "decimals": 18,
+            "alias": null,
+            "external_price": 0.6294388334885931,
+            "normalize_priority": 0,
+            "internal_buffer": "440168254765910888"
+        },
+        "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48": {
+            "decimals": 6,
+            "alias": "USDC",
+            "external_price": 218706549.86362553,
+            "normalize_priority": 0,
+            "internal_buffer": "8900230755"
+        },
+        "0xa3d58c4e56fedcae3a7c43a725aee9a71f0ece4e": {
+            "decimals": 18,
+            "alias": "MET",
+            "external_price": 0.001383182798662126,
+            "normalize_priority": 0,
+            "internal_buffer": "0"
+        },
+        "0xb6ca7399b4f9ca56fc27cbff44f4d2e4eef1fc81": {
+            "decimals": 18,
+            "alias": "MUSE",
+            "external_price": 0.0056152429396738686,
+            "normalize_priority": 0,
+            "internal_buffer": "7201165091578979003"
+        },
+        "0xba100000625a3754423978a60c9317c58a424e3d": {
+            "decimals": 18,
+            "alias": "BAL",
+            "external_price": 0.0053630733497998335,
+            "normalize_priority": 0,
+            "internal_buffer": "179041563649433650428"
+        },
+        "0xbb0e17ef65f82ab018d8edd776e8dd940327b28b": {
+            "decimals": 18,
+            "alias": "AXS",
+            "external_price": 0.03206168124280687,
+            "normalize_priority": 0,
+            "internal_buffer": "8542298531938629643"
+        },
+        "0xbc396689893d065f41bc2c6ecbee5e0085233447": {
+            "decimals": 18,
+            "alias": "PERP",
+            "external_price": 0.0035596079913135575,
+            "normalize_priority": 0,
+            "internal_buffer": "92184515923987745545"
+        },
+        "0xc00e94cb662c3520282e6f5717214004a7f26888": {
+            "decimals": 18,
+            "alias": "COMP",
+            "external_price": 0.06982123675420743,
+            "normalize_priority": 0,
+            "internal_buffer": "502061252574151003"
+        },
+        "0xc011a73ee8576fb46f5e1c5751ca3b9fe0af2a6f": {
+            "decimals": 18,
+            "alias": "SNX",
+            "external_price": 0.0021027279893655213,
+            "normalize_priority": 0,
+            "internal_buffer": "48158892818549095716"
+        },
+        "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2": {
+            "decimals": 18,
+            "alias": "WETH",
+            "external_price": 1.0,
+            "normalize_priority": 1,
+            "internal_buffer": "312980192630382821"
+        },
+        "0xc18360217d8f7ab5e7c516566761ea12ce7f9d72": {
+            "decimals": 18,
+            "alias": "ENS",
+            "external_price": 0.011956973768944713,
+            "normalize_priority": 0,
+            "internal_buffer": "172084336394108360972"
+        },
+        "0xd46ba6d942050d489dbd938a2c909a5d5039a161": {
+            "decimals": 9,
+            "alias": "AMPL",
+            "external_price": 225567.89963777864,
+            "normalize_priority": 0,
+            "internal_buffer": "11925980740197"
+        },
+        "0xdac17f958d2ee523a2206206994597c13d831ec7": {
+            "decimals": 6,
+            "alias": "USDT",
+            "external_price": 218721439.52530292,
+            "normalize_priority": 0,
+            "internal_buffer": "6204787367"
+        },
+        "0xdbdb4d16eda451d0503b854cf79d55697f90c8df": {
+            "decimals": 18,
+            "alias": "ALCX",
+            "external_price": 0.09350192746797299,
+            "normalize_priority": 0,
+            "internal_buffer": "11556772183392289594"
+        },
+        "0xf5d669627376ebd411e34b98f19c868c8aba5ada": {
+            "decimals": 18,
+            "alias": "AXS",
+            "external_price": 0.0316315369551985,
+            "normalize_priority": 0,
+            "internal_buffer": "3240347795546996681"
+        },
+        "0xf65b5c5104c4fafd4b709d9d60a185eae063276c": {
+            "decimals": 18,
+            "alias": "TRU",
+            "external_price": 6.235353187139037e-05,
+            "normalize_priority": 0,
+            "internal_buffer": "10933450845110973018538"
+        }
+    },
+    "orders": {
+        "0": {
+            "sell_token": "0x6810e776880c02933d47db1b9fc05908e5386b96",
+            "buy_token": "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48",
+            "sell_amount": "35812330062760207286",
+            "buy_amount": "16641599410",
+            "allow_partial_fill": false,
+            "is_sell_order": true,
+            "fee": {
+                "amount": "309667464307311936",
+                "token": "0x6810e776880c02933d47db1b9fc05908e5386b96"
+            },
+            "cost": {
+                "amount": "10067897876015505",
+                "token": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2"
+            },
+            "is_liquidity_order": false
+        },
+        "1": {
+            "sell_token": "0x6123b0049f904d730db3c36a31167d9d4121fa6b",
+            "buy_token": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+            "sell_amount": "75792956526649046067840",
+            "buy_amount": "30000000000000000000",
+            "allow_partial_fill": false,
+            "is_sell_order": false,
+            "fee": {
+                "amount": "83152199212272009216",
+                "token": "0x6123b0049f904d730db3c36a31167d9d4121fa6b"
+            },
+            "cost": {
+                "amount": "10067897876015505",
+                "token": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2"
+            },
+            "is_liquidity_order": false
+        },
+        "2": {
+            "sell_token": "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48",
+            "buy_token": "0xdac17f958d2ee523a2206206994597c13d831ec7",
+            "sell_amount": "61815546189",
+            "buy_amount": "61839262512",
+            "allow_partial_fill": false,
+            "is_sell_order": false,
+            "fee": {
+                "amount": "130691956",
+                "token": "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48"
+            },
+            "cost": {
+                "amount": "10067897876015505",
+                "token": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2"
+            },
+            "is_liquidity_order": true
+        },
+        "3": {
+            "sell_token": "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48",
+            "buy_token": "0x6b175474e89094c44da98b954eedeac495271d0f",
+            "sell_amount": "61826897133",
+            "buy_amount": "61851794898402599239680",
+            "allow_partial_fill": false,
+            "is_sell_order": false,
+            "fee": {
+                "amount": "139619899",
+                "token": "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48"
+            },
+            "cost": {
+                "amount": "10067897876015505",
+                "token": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2"
+            },
+            "is_liquidity_order": true
+        },
+        "4": {
+            "sell_token": "0xc18360217d8f7ab5e7c516566761ea12ce7f9d72",
+            "buy_token": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+            "sell_amount": "606503681806715980800",
+            "buy_amount": "7239914508887931585",
+            "allow_partial_fill": false,
+            "is_sell_order": true,
+            "fee": {
+                "amount": "1847297035516565504",
+                "token": "0xc18360217d8f7ab5e7c516566761ea12ce7f9d72"
+            },
+            "cost": {
+                "amount": "10067897876015505",
+                "token": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2"
+            },
+            "is_liquidity_order": false
+        },
+        "5": {
+            "sell_token": "0x3ec8798b81485a254928b70cda1cf0a2bb0b74d7",
+            "buy_token": "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48",
+            "sell_amount": "369775281932224601619",
+            "buy_amount": "3653323010",
+            "allow_partial_fill": false,
+            "is_sell_order": true,
+            "fee": {
+                "amount": "14206570907309531136",
+                "token": "0x3ec8798b81485a254928b70cda1cf0a2bb0b74d7"
+            },
+            "cost": {
+                "amount": "10067897876015505",
+                "token": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2"
+            },
+            "is_liquidity_order": false
+        },
+        "6": {
+            "sell_token": "0x6b175474e89094c44da98b954eedeac495271d0f",
+            "buy_token": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+            "sell_amount": "914593991006024990720",
+            "buy_amount": "197367594805606985",
+            "allow_partial_fill": false,
+            "is_sell_order": true,
+            "fee": {
+                "amount": "131347834957783613440",
+                "token": "0x6b175474e89094c44da98b954eedeac495271d0f"
+            },
+            "cost": {
+                "amount": "10067897876015505",
+                "token": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2"
+            },
+            "is_liquidity_order": false
+        },
+        "7": {
+            "sell_token": "0xf65b5c5104c4fafd4b709d9d60a185eae063276c",
+            "buy_token": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+            "sell_amount": "3271388840891913028551",
+            "buy_amount": "200369139874509516",
+            "allow_partial_fill": false,
+            "is_sell_order": true,
+            "fee": {
+                "amount": "421411289106511953920",
+                "token": "0xf65b5c5104c4fafd4b709d9d60a185eae063276c"
+            },
+            "cost": {
+                "amount": "10067897876015505",
+                "token": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2"
+            },
+            "is_liquidity_order": false
+        },
+        "8": {
+            "sell_token": "0x0ff5a8451a839f5f0bb3562689d9a44089738d11",
+            "buy_token": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+            "sell_amount": "55671151007494063437",
+            "buy_amount": "1038319855975285303",
+            "allow_partial_fill": false,
+            "is_sell_order": true,
+            "fee": {
+                "amount": "1412333395788173568",
+                "token": "0x0ff5a8451a839f5f0bb3562689d9a44089738d11"
+            },
+            "cost": {
+                "amount": "10067897876015505",
+                "token": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2"
+            },
+            "is_liquidity_order": false
+        },
+        "9": {
+            "sell_token": "0xdbdb4d16eda451d0503b854cf79d55697f90c8df",
+            "buy_token": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+            "sell_amount": "1918243254309378808",
+            "buy_amount": "178799919714743954",
+            "allow_partial_fill": false,
+            "is_sell_order": true,
+            "fee": {
+                "amount": "392819727925365824",
+                "token": "0xdbdb4d16eda451d0503b854cf79d55697f90c8df"
+            },
+            "cost": {
+                "amount": "10067897876015505",
+                "token": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2"
+            },
+            "is_liquidity_order": false
+        },
+        "10": {
+            "sell_token": "0x949d48eca67b17269629c7194f4b727d4ef9e5d6",
+            "buy_token": "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48",
+            "sell_amount": "10337077440099551540348",
+            "buy_amount": "61839427013",
+            "allow_partial_fill": false,
+            "is_sell_order": true,
+            "fee": {
+                "amount": "35051470321894719488",
+                "token": "0x949d48eca67b17269629c7194f4b727d4ef9e5d6"
+            },
+            "cost": {
+                "amount": "10067897876015505",
+                "token": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2"
+            },
+            "is_liquidity_order": false
+        },
+        "11": {
+            "sell_token": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+            "buy_token": "0x6b175474e89094c44da98b954eedeac495271d0f",
+            "sell_amount": "21054845791663704831",
+            "buy_amount": "96336113711063418926702",
+            "allow_partial_fill": false,
+            "is_sell_order": true,
+            "fee": {
+                "amount": "21103877441872532",
+                "token": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2"
+            },
+            "cost": {
+                "amount": "10067897876015505",
+                "token": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2"
+            },
+            "is_liquidity_order": false
+        },
+        "12": {
+            "sell_token": "0xdac17f958d2ee523a2206206994597c13d831ec7",
+            "buy_token": "0x6810e776880c02933d47db1b9fc05908e5386b96",
+            "sell_amount": "1947627759",
+            "buy_amount": "4131821283850656452",
+            "allow_partial_fill": false,
+            "is_sell_order": true,
+            "fee": {
+                "amount": "98361436",
+                "token": "0xdac17f958d2ee523a2206206994597c13d831ec7"
+            },
+            "cost": {
+                "amount": "10067897876015505",
+                "token": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2"
+            },
+            "is_liquidity_order": false
+        }
+    },
+    "amms": {
+        "0": {
+            "kind": "ConstantProduct",
+            "reserves": {
+                "0x9f8f72aa9304c8b593d555f12ef6589cc3a579a2": "27888890246655",
+                "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48": "73592"
+            },
+            "fee": "0.003",
+            "cost": {
+                "amount": "14376681855796792",
+                "token": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2"
+            },
+            "mandatory": false
+        },
+        "1": {
+            "kind": "ConstantProduct",
+            "reserves": {
+                "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48": "93639226",
+                "0xf65b5c5104c4fafd4b709d9d60a185eae063276c": "275864615472131721012"
+            },
+            "fee": "0.003",
+            "cost": {
+                "amount": "14376681855796792",
+                "token": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2"
+            },
+            "mandatory": false
+        },
+        "2": {
+            "kind": "ConstantProduct",
+            "reserves": {
+                "0x2260fac5e5542a773aa44fbcfedf7c193bc2c599": "1034521555",
+                "0x6b175474e89094c44da98b954eedeac495271d0f": "662649711403428990386795"
+            },
+            "fee": "0.003",
+            "cost": {
+                "amount": "14376681855796792",
+                "token": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2"
+            },
+            "mandatory": false
+        },
+        "3": {
+            "kind": "ConstantProduct",
+            "reserves": {
+                "0x6b175474e89094c44da98b954eedeac495271d0f": "41241743163047760442796019",
+                "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48": "41196394075832"
+            },
+            "fee": "0.003",
+            "cost": {
+                "amount": "14376681855796792",
+                "token": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2"
+            },
+            "mandatory": false
+        },
+        "4": {
+            "kind": "ConstantProduct",
+            "reserves": {
+                "0x6b175474e89094c44da98b954eedeac495271d0f": "160214549284364350688",
+                "0xd46ba6d942050d489dbd938a2c909a5d5039a161": "147424843292"
+            },
+            "fee": "0.003",
+            "cost": {
+                "amount": "14376681855796792",
+                "token": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2"
+            },
+            "mandatory": false
+        },
+        "5": {
+            "kind": "ConstantProduct",
+            "reserves": {
+                "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2": "19665525300428144546",
+                "0xc18360217d8f7ab5e7c516566761ea12ce7f9d72": "1632909724823454342426"
+            },
+            "fee": "0.003",
+            "cost": {
+                "amount": "14376681855796792",
+                "token": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2"
+            },
+            "mandatory": false
+        },
+        "6": {
+            "kind": "ConstantProduct",
+            "reserves": {
+                "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2": "1712726087442511309525",
+                "0xd46ba6d942050d489dbd938a2c909a5d5039a161": "7599883264143977"
+            },
+            "fee": "0.003",
+            "cost": {
+                "amount": "14376681855796792",
+                "token": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2"
+            },
+            "mandatory": false
+        },
+        "7": {
+            "kind": "ConstantProduct",
+            "reserves": {
+                "0xd46ba6d942050d489dbd938a2c909a5d5039a161": "378432025848",
+                "0xdac17f958d2ee523a2206206994597c13d831ec7": "338992690"
+            },
+            "fee": "0.003",
+            "cost": {
+                "amount": "14376681855796792",
+                "token": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2"
+            },
+            "mandatory": false
+        },
+        "8": {
+            "kind": "ConstantProduct",
+            "reserves": {
+                "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48": "32057219824858",
+                "0xdac17f958d2ee523a2206206994597c13d831ec7": "32201862969026"
+            },
+            "fee": "0.003",
+            "cost": {
+                "amount": "14376681855796792",
+                "token": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2"
+            },
+            "mandatory": false
+        },
+        "9": {
+            "kind": "ConstantProduct",
+            "reserves": {
+                "0x3ec8798b81485a254928b70cda1cf0a2bb0b74d7": "417232388301061049041464",
+                "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48": "4158940291217"
+            },
+            "fee": "0.003",
+            "cost": {
+                "amount": "14376681855796792",
+                "token": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2"
+            },
+            "mandatory": false
+        },
+        "10": {
+            "kind": "ConstantProduct",
+            "reserves": {
+                "0x6b175474e89094c44da98b954eedeac495271d0f": "44620140546094334412591455",
+                "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2": "9684833919281663791968"
+            },
+            "fee": "0.003",
+            "cost": {
+                "amount": "14376681855796792",
+                "token": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2"
+            },
+            "mandatory": false
+        },
+        "11": {
+            "kind": "ConstantProduct",
+            "reserves": {
+                "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48": "104141611",
+                "0xd46ba6d942050d489dbd938a2c909a5d5039a161": "87653942869"
+            },
+            "fee": "0.003",
+            "cost": {
+                "amount": "14376681855796792",
+                "token": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2"
+            },
+            "mandatory": false
+        },
+        "12": {
+            "kind": "ConstantProduct",
+            "reserves": {
+                "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48": "1",
+                "0xc18360217d8f7ab5e7c516566761ea12ce7f9d72": "131209050"
+            },
+            "fee": "0.003",
+            "cost": {
+                "amount": "14376681855796792",
+                "token": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2"
+            },
+            "mandatory": false
+        },
+        "13": {
+            "kind": "ConstantProduct",
+            "reserves": {
+                "0x6b175474e89094c44da98b954eedeac495271d0f": "468941163774147934544",
+                "0xc00e94cb662c3520282e6f5717214004a7f26888": "1353094117460359123"
+            },
+            "fee": "0.003",
+            "cost": {
+                "amount": "14376681855796792",
+                "token": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2"
+            },
+            "mandatory": false
+        },
+        "14": {
+            "kind": "ConstantProduct",
+            "reserves": {
+                "0x6b175474e89094c44da98b954eedeac495271d0f": "134160721047695286341",
+                "0x9f8f72aa9304c8b593d555f12ef6589cc3a579a2": "42881473583722456"
+            },
+            "fee": "0.003",
+            "cost": {
+                "amount": "14376681855796792",
+                "token": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2"
+            },
+            "mandatory": false
+        },
+        "15": {
+            "kind": "ConstantProduct",
+            "reserves": {
+                "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48": "144103598878557",
+                "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2": "31503988537844084697321"
+            },
+            "fee": "0.003",
+            "cost": {
+                "amount": "14376681855796792",
+                "token": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2"
+            },
+            "mandatory": false
+        },
+        "16": {
+            "kind": "ConstantProduct",
+            "reserves": {
+                "0x0ff5a8451a839f5f0bb3562689d9a44089738d11": "2816973441025036941181",
+                "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2": "54004320943994947483"
+            },
+            "fee": "0.003",
+            "cost": {
+                "amount": "14376681855796792",
+                "token": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2"
+            },
+            "mandatory": false
+        },
+        "17": {
+            "kind": "ConstantProduct",
+            "reserves": {
+                "0x6810e776880c02933d47db1b9fc05908e5386b96": "3049",
+                "0x9f8f72aa9304c8b593d555f12ef6589cc3a579a2": "328"
+            },
+            "fee": "0.003",
+            "cost": {
+                "amount": "14376681855796792",
+                "token": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2"
+            },
+            "mandatory": false
+        },
+        "18": {
+            "kind": "ConstantProduct",
+            "reserves": {
+                "0x9f8f72aa9304c8b593d555f12ef6589cc3a579a2": "31680019939293183",
+                "0xc00e94cb662c3520282e6f5717214004a7f26888": "260190569505819239"
+            },
+            "fee": "0.003",
+            "cost": {
+                "amount": "14376681855796792",
+                "token": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2"
+            },
+            "mandatory": false
+        },
+        "19": {
+            "kind": "ConstantProduct",
+            "reserves": {
+                "0x9f8f72aa9304c8b593d555f12ef6589cc3a579a2": "4954800855893164961833",
+                "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2": "3114788334797818660516"
+            },
+            "fee": "0.003",
+            "cost": {
+                "amount": "14376681855796792",
+                "token": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2"
+            },
+            "mandatory": false
+        },
+        "20": {
+            "kind": "ConstantProduct",
+            "reserves": {
+                "0xc00e94cb662c3520282e6f5717214004a7f26888": "8063046894828888",
+                "0xdac17f958d2ee523a2206206994597c13d831ec7": "2996831"
+            },
+            "fee": "0.003",
+            "cost": {
+                "amount": "14376681855796792",
+                "token": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2"
+            },
+            "mandatory": false
+        },
+        "21": {
+            "kind": "ConstantProduct",
+            "reserves": {
+                "0x6b175474e89094c44da98b954eedeac495271d0f": "896",
+                "0xf65b5c5104c4fafd4b709d9d60a185eae063276c": "1134"
+            },
+            "fee": "0.003",
+            "cost": {
+                "amount": "14376681855796792",
+                "token": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2"
+            },
+            "mandatory": false
+        },
+        "22": {
+            "kind": "ConstantProduct",
+            "reserves": {
+                "0x2260fac5e5542a773aa44fbcfedf7c193bc2c599": "1741397143",
+                "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48": "1106124527608"
+            },
+            "fee": "0.003",
+            "cost": {
+                "amount": "14376681855796792",
+                "token": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2"
+            },
+            "mandatory": false
+        },
+        "23": {
+            "kind": "ConstantProduct",
+            "reserves": {
+                "0x2260fac5e5542a773aa44fbcfedf7c193bc2c599": "152794633809",
+                "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2": "21200259946707328279308"
+            },
+            "fee": "0.003",
+            "cost": {
+                "amount": "14376681855796792",
+                "token": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2"
+            },
+            "mandatory": false
+        },
+        "24": {
+            "kind": "ConstantProduct",
+            "reserves": {
+                "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2": "173860461118122576612",
+                "0xf65b5c5104c4fafd4b709d9d60a185eae063276c": "2812729394635232997532705"
+            },
+            "fee": "0.003",
+            "cost": {
+                "amount": "14376681855796792",
+                "token": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2"
+            },
+            "mandatory": false
+        },
+        "25": {
+            "kind": "ConstantProduct",
+            "reserves": {
+                "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2": "584407528",
+                "0xdbdb4d16eda451d0503b854cf79d55697f90c8df": "5372198461"
+            },
+            "fee": "0.003",
+            "cost": {
+                "amount": "14376681855796792",
+                "token": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2"
+            },
+            "mandatory": false
+        },
+        "26": {
+            "kind": "ConstantProduct",
+            "reserves": {
+                "0x6b175474e89094c44da98b954eedeac495271d0f": "3510846347951162028911303",
+                "0xdac17f958d2ee523a2206206994597c13d831ec7": "3511166358476"
+            },
+            "fee": "0.003",
+            "cost": {
+                "amount": "14376681855796792",
+                "token": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2"
+            },
+            "mandatory": false
+        },
+        "27": {
+            "kind": "ConstantProduct",
+            "reserves": {
+                "0x949d48eca67b17269629c7194f4b727d4ef9e5d6": "5859480449025364412797177",
+                "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2": "7615071440726291332052"
+            },
+            "fee": "0.003",
+            "cost": {
+                "amount": "14376681855796792",
+                "token": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2"
+            },
+            "mandatory": false
+        },
+        "28": {
+            "kind": "ConstantProduct",
+            "reserves": {
+                "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2": "23077671785835303133091",
+                "0xdac17f958d2ee523a2206206994597c13d831ec7": "105824577409844"
+            },
+            "fee": "0.003",
+            "cost": {
+                "amount": "14376681855796792",
+                "token": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2"
+            },
+            "mandatory": false
+        },
+        "29": {
+            "kind": "ConstantProduct",
+            "reserves": {
+                "0xc00e94cb662c3520282e6f5717214004a7f26888": "9989237440394382626390",
+                "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2": "694371529582809779173"
+            },
+            "fee": "0.003",
+            "cost": {
+                "amount": "14376681855796792",
+                "token": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2"
+            },
+            "mandatory": false
+        },
+        "30": {
+            "kind": "ConstantProduct",
+            "reserves": {
+                "0x9f8f72aa9304c8b593d555f12ef6589cc3a579a2": "169787956009912606",
+                "0xdac17f958d2ee523a2206206994597c13d831ec7": "537928202"
+            },
+            "fee": "0.003",
+            "cost": {
+                "amount": "14376681855796792",
+                "token": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2"
+            },
+            "mandatory": false
+        },
+        "31": {
+            "kind": "ConstantProduct",
+            "reserves": {
+                "0x2260fac5e5542a773aa44fbcfedf7c193bc2c599": "15881354",
+                "0xdac17f958d2ee523a2206206994597c13d831ec7": "10191397401"
+            },
+            "fee": "0.003",
+            "cost": {
+                "amount": "14376681855796792",
+                "token": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2"
+            },
+            "mandatory": false
+        },
+        "32": {
+            "kind": "ConstantProduct",
+            "reserves": {
+                "0x6810e776880c02933d47db1b9fc05908e5386b96": "400443453611929364782",
+                "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2": "40287463985995550300"
+            },
+            "fee": "0.003",
+            "cost": {
+                "amount": "14376681855796792",
+                "token": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2"
+            },
+            "mandatory": false
+        },
+        "33": {
+            "kind": "ConstantProduct",
+            "reserves": {
+                "0x9f8f72aa9304c8b593d555f12ef6589cc3a579a2": "131919687574689728",
+                "0xd46ba6d942050d489dbd938a2c909a5d5039a161": "258919036548"
+            },
+            "fee": "0.003",
+            "cost": {
+                "amount": "14376681855796792",
+                "token": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2"
+            },
+            "mandatory": false
+        },
+        "34": {
+            "kind": "ConstantProduct",
+            "reserves": {
+                "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48": "28499713",
+                "0xc00e94cb662c3520282e6f5717214004a7f26888": "92167578509045372"
+            },
+            "fee": "0.003",
+            "cost": {
+                "amount": "14376681855796792",
+                "token": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2"
+            },
+            "mandatory": false
+        },
+        "35": {
+            "kind": "ConstantProduct",
+            "reserves": {
+                "0xc00e94cb662c3520282e6f5717214004a7f26888": "228236705689165868",
+                "0xd46ba6d942050d489dbd938a2c909a5d5039a161": "56903529596"
+            },
+            "fee": "0.003",
+            "cost": {
+                "amount": "14376681855796792",
+                "token": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2"
+            },
+            "mandatory": false
+        },
+        "36": {
+            "kind": "ConstantProduct",
+            "reserves": {
+                "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2": "6245755103323435897",
+                "0xf65b5c5104c4fafd4b709d9d60a185eae063276c": "102044671217203682347553"
+            },
+            "fee": "0.003",
+            "cost": {
+                "amount": "14376681855796792",
+                "token": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2"
+            },
+            "mandatory": false
+        },
+        "37": {
+            "kind": "ConstantProduct",
+            "reserves": {
+                "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48": "245148",
+                "0xc18360217d8f7ab5e7c516566761ea12ce7f9d72": "3325085056697658"
+            },
+            "fee": "0.003",
+            "cost": {
+                "amount": "14376681855796792",
+                "token": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2"
+            },
+            "mandatory": false
+        },
+        "38": {
+            "kind": "ConstantProduct",
+            "reserves": {
+                "0x9f8f72aa9304c8b593d555f12ef6589cc3a579a2": "6698124226192161419339",
+                "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2": "4202414320997591044680"
+            },
+            "fee": "0.003",
+            "cost": {
+                "amount": "14376681855796792",
+                "token": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2"
+            },
+            "mandatory": false
+        },
+        "39": {
+            "kind": "ConstantProduct",
+            "reserves": {
+                "0x2260fac5e5542a773aa44fbcfedf7c193bc2c599": "16770",
+                "0xdac17f958d2ee523a2206206994597c13d831ec7": "11001944"
+            },
+            "fee": "0.003",
+            "cost": {
+                "amount": "14376681855796792",
+                "token": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2"
+            },
+            "mandatory": false
+        },
+        "40": {
+            "kind": "ConstantProduct",
+            "reserves": {
+                "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48": "2377024028",
+                "0xdac17f958d2ee523a2206206994597c13d831ec7": "2369021572"
+            },
+            "fee": "0.003",
+            "cost": {
+                "amount": "14376681855796792",
+                "token": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2"
+            },
+            "mandatory": false
+        },
+        "41": {
+            "kind": "ConstantProduct",
+            "reserves": {
+                "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2": "722252876733733968597",
+                "0xc18360217d8f7ab5e7c516566761ea12ce7f9d72": "60669712020565548697341"
+            },
+            "fee": "0.003",
+            "cost": {
+                "amount": "14376681855796792",
+                "token": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2"
+            },
+            "mandatory": false
+        },
+        "42": {
+            "kind": "ConstantProduct",
+            "reserves": {
+                "0x6b175474e89094c44da98b954eedeac495271d0f": "84362265393753974799872132",
+                "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2": "18347020555657126480049"
+            },
+            "fee": "0.003",
+            "cost": {
+                "amount": "14376681855796792",
+                "token": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2"
+            },
+            "mandatory": false
+        },
+        "43": {
+            "kind": "ConstantProduct",
+            "reserves": {
+                "0x6b175474e89094c44da98b954eedeac495271d0f": "31420234752449186215469",
+                "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48": "31584154870"
+            },
+            "fee": "0.003",
+            "cost": {
+                "amount": "14376681855796792",
+                "token": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2"
+            },
+            "mandatory": false
+        },
+        "44": {
+            "kind": "ConstantProduct",
+            "reserves": {
+                "0x6b175474e89094c44da98b954eedeac495271d0f": "166890692159778890143",
+                "0xdac17f958d2ee523a2206206994597c13d831ec7": "167471125"
+            },
+            "fee": "0.003",
+            "cost": {
+                "amount": "14376681855796792",
+                "token": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2"
+            },
+            "mandatory": false
+        },
+        "45": {
+            "kind": "ConstantProduct",
+            "reserves": {
+                "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2": "21225531083887316989256",
+                "0xdac17f958d2ee523a2206206994597c13d831ec7": "97340248536809"
+            },
+            "fee": "0.003",
+            "cost": {
+                "amount": "14376681855796792",
+                "token": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2"
+            },
+            "mandatory": false
+        },
+        "46": {
+            "kind": "ConstantProduct",
+            "reserves": {
+                "0x2260fac5e5542a773aa44fbcfedf7c193bc2c599": "390747888943",
+                "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2": "54237822786101385632997"
+            },
+            "fee": "0.003",
+            "cost": {
+                "amount": "14376681855796792",
+                "token": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2"
+            },
+            "mandatory": false
+        },
+        "47": {
+            "kind": "ConstantProduct",
+            "reserves": {
+                "0x6810e776880c02933d47db1b9fc05908e5386b96": "591682322398880708926",
+                "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2": "60603785216429008720"
+            },
+            "fee": "0.003",
+            "cost": {
+                "amount": "14376681855796792",
+                "token": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2"
+            },
+            "mandatory": false
+        },
+        "48": {
+            "kind": "ConstantProduct",
+            "reserves": {
+                "0x6123b0049f904d730db3c36a31167d9d4121fa6b": "658656674253010936262",
+                "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2": "292033595636055052"
+            },
+            "fee": "0.003",
+            "cost": {
+                "amount": "14376681855796792",
+                "token": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2"
+            },
+            "mandatory": false
+        },
+        "49": {
+            "kind": "ConstantProduct",
+            "reserves": {
+                "0xc00e94cb662c3520282e6f5717214004a7f26888": "50266714434245977881187",
+                "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2": "3513071540417549977098"
+            },
+            "fee": "0.003",
+            "cost": {
+                "amount": "14376681855796792",
+                "token": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2"
+            },
+            "mandatory": false
+        },
+        "50": {
+            "kind": "ConstantProduct",
+            "reserves": {
+                "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48": "184033774053711",
+                "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2": "40127646598249219041107"
+            },
+            "fee": "0.003",
+            "cost": {
+                "amount": "14376681855796792",
+                "token": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2"
+            },
+            "mandatory": false
+        },
+        "51": {
+            "kind": "ConstantProduct",
+            "reserves": {
+                "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2": "21258847849783163051575",
+                "0xdbdb4d16eda451d0503b854cf79d55697f90c8df": "228057505081734294199387"
+            },
+            "fee": "0.003",
+            "cost": {
+                "amount": "14376681855796792",
+                "token": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2"
+            },
+            "mandatory": false
+        },
+        "52": {
+            "kind": "ConstantProduct",
+            "reserves": {
+                "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2": "782338895029637607210",
+                "0xd46ba6d942050d489dbd938a2c909a5d5039a161": "3483177239373554"
+            },
+            "fee": "0.003",
+            "cost": {
+                "amount": "14376681855796792",
+                "token": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2"
+            },
+            "mandatory": false
+        },
+        "53": {
+            "kind": "WeightedProduct",
+            "reserves": {
+                "0x18aaa7115705e8be94bffebde57af9bfc265b998": {
+                    "balance": "60387271452376666026",
+                    "weight": "0.125"
+                },
+                "0x3845badade8e6dff049820680d1f14bd3903a5d0": {
+                    "balance": "126370092106264106317",
+                    "weight": "0.125"
+                },
+                "0x72e364f2abdc788b7e918bc238b21f109cd634d7": {
+                    "balance": "973866726433230259",
+                    "weight": "0.125"
+                },
+                "0x87d73e916d7057945c9bcd8cdd94e42a6f47f776": {
+                    "balance": "568421440530172583",
+                    "weight": "0.125"
+                },
+                "0xb6ca7399b4f9ca56fc27cbff44f4d2e4eef1fc81": {
+                    "balance": "2997023749294327812",
+                    "weight": "0.125"
+                },
+                "0xbb0e17ef65f82ab018d8edd776e8dd940327b28b": {
+                    "balance": "1295943489744034642",
+                    "weight": "0.125"
+                },
+                "0xc00e94cb662c3520282e6f5717214004a7f26888": {
+                    "balance": "297423910895795177",
+                    "weight": "0.125"
+                },
+                "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2": {
+                    "balance": "42300385807555997",
+                    "weight": "0.125"
+                }
+            },
+            "fee": "0.01",
+            "cost": {
+                "amount": "18218317803240000",
+                "token": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2"
+            },
+            "mandatory": false
+        },
+        "54": {
+            "kind": "WeightedProduct",
+            "reserves": {
+                "0x0bc529c00c6401aef6d220be8c6ea1667f6ad93e": {
+                    "balance": "1150",
+                    "weight": "0.125"
+                },
+                "0x1f9840a85d5af5bf1d1762f925bdaddc4201f984": {
+                    "balance": "1937069",
+                    "weight": "0.125"
+                },
+                "0x514910771af9ca656af840dff83e8264ecf986ca": {
+                    "balance": "1712376",
+                    "weight": "0.125"
+                },
+                "0x7fc66500c84a76ad7e9c93437bfc5ac33e2ddae9": {
+                    "balance": "139846",
+                    "weight": "0.125"
+                },
+                "0x9f8f72aa9304c8b593d555f12ef6589cc3a579a2": {
+                    "balance": "13299",
+                    "weight": "0.125"
+                },
+                "0xc00e94cb662c3520282e6f5717214004a7f26888": {
+                    "balance": "121022",
+                    "weight": "0.125"
+                },
+                "0xc011a73ee8576fb46f5e1c5751ca3b9fe0af2a6f": {
+                    "balance": "4009385",
+                    "weight": "0.125"
+                },
+                "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2": {
+                    "balance": "17365",
+                    "weight": "0.125"
+                }
+            },
+            "fee": "0.0015",
+            "cost": {
+                "amount": "18218317803240000",
+                "token": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2"
+            },
+            "mandatory": false
+        },
+        "55": {
+            "kind": "WeightedProduct",
+            "reserves": {
+                "0x6810e776880c02933d47db1b9fc05908e5386b96": {
+                    "balance": "20330539255670269346",
+                    "weight": "0.25"
+                },
+                "0x6b175474e89094c44da98b954eedeac495271d0f": {
+                    "balance": "10928595376682871418747",
+                    "weight": "0.25"
+                },
+                "0xba100000625a3754423978a60c9317c58a424e3d": {
+                    "balance": "444658133648670940819",
+                    "weight": "0.25"
+                },
+                "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2": {
+                    "balance": "2346360104721561519",
+                    "weight": "0.25"
+                }
+            },
+            "fee": "0.01",
+            "cost": {
+                "amount": "18218317803240000",
+                "token": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2"
+            },
+            "mandatory": false
+        },
+        "56": {
+            "kind": "WeightedProduct",
+            "reserves": {
+                "0x1f9840a85d5af5bf1d1762f925bdaddc4201f984": {
+                    "balance": "7106964898819589313",
+                    "weight": "0.125"
+                },
+                "0x6b3595068778dd592e39a122f4f5a5cf09c90fe2": {
+                    "balance": "12856221384869336968",
+                    "weight": "0.125"
+                },
+                "0x7fc66500c84a76ad7e9c93437bfc5ac33e2ddae9": {
+                    "balance": "458179995950018385",
+                    "weight": "0.125"
+                },
+                "0x9f8f72aa9304c8b593d555f12ef6589cc3a579a2": {
+                    "balance": "50480619372569735",
+                    "weight": "0.125"
+                },
+                "0xba100000625a3754423978a60c9317c58a424e3d": {
+                    "balance": "7252864916011326167",
+                    "weight": "0.125"
+                },
+                "0xc00e94cb662c3520282e6f5717214004a7f26888": {
+                    "balance": "475828038408280564",
+                    "weight": "0.125"
+                },
+                "0xc011a73ee8576fb46f5e1c5751ca3b9fe0af2a6f": {
+                    "balance": "14837495085729431304",
+                    "weight": "0.125"
+                },
+                "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2": {
+                    "balance": "46988251681603941",
+                    "weight": "0.125"
+                }
+            },
+            "fee": "0.005",
+            "cost": {
+                "amount": "18218317803240000",
+                "token": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2"
+            },
+            "mandatory": false
+        },
+        "57": {
+            "kind": "WeightedProduct",
+            "reserves": {
+                "0x2260fac5e5542a773aa44fbcfedf7c193bc2c599": {
+                    "balance": "100000",
+                    "weight": "0.4"
+                },
+                "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48": {
+                    "balance": "31791255",
+                    "weight": "0.2"
+                },
+                "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2": {
+                    "balance": "17015250000000000",
+                    "weight": "0.4"
+                }
+            },
+            "fee": "0.0055",
+            "cost": {
+                "amount": "18218317803240000",
+                "token": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2"
+            },
+            "mandatory": false
+        },
+        "58": {
+            "kind": "WeightedProduct",
+            "reserves": {
+                "0x2260fac5e5542a773aa44fbcfedf7c193bc2c599": {
+                    "balance": "1",
+                    "weight": "0.5"
+                },
+                "0x35a18000230da775cac24873d00ff85bccded550": {
+                    "balance": "1",
+                    "weight": "0.01"
+                },
+                "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48": {
+                    "balance": "1",
+                    "weight": "0.49"
+                }
+            },
+            "fee": "0.0015",
+            "cost": {
+                "amount": "18218317803240000",
+                "token": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2"
+            },
+            "mandatory": false
+        },
+        "60": {
+            "kind": "WeightedProduct",
+            "reserves": {
+                "0x2260fac5e5542a773aa44fbcfedf7c193bc2c599": {
+                    "balance": "1",
+                    "weight": "0.33"
+                },
+                "0x677ddbd918637e5f2c79e164d402454de7da8619": {
+                    "balance": "185143579",
+                    "weight": "0.34"
+                },
+                "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2": {
+                    "balance": "51158",
+                    "weight": "0.33"
+                }
+            },
+            "fee": "0.005",
+            "cost": {
+                "amount": "18218317803240000",
+                "token": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2"
+            },
+            "mandatory": false
+        },
+        "61": {
+            "kind": "WeightedProduct",
+            "reserves": {
+                "0x0bc529c00c6401aef6d220be8c6ea1667f6ad93e": {
+                    "balance": "6927054066178298",
+                    "weight": "0.125"
+                },
+                "0x7d1afa7b718fb893db30a3abc0cfc608aacfebb0": {
+                    "balance": "155376214405830998645",
+                    "weight": "0.125"
+                },
+                "0x7fc66500c84a76ad7e9c93437bfc5ac33e2ddae9": {
+                    "balance": "652171084905308585",
+                    "weight": "0.125"
+                },
+                "0x9f8f72aa9304c8b593d555f12ef6589cc3a579a2": {
+                    "balance": "88653946919383609",
+                    "weight": "0.125"
+                },
+                "0xba100000625a3754423978a60c9317c58a424e3d": {
+                    "balance": "11479463481449338709",
+                    "weight": "0.125"
+                },
+                "0xc00e94cb662c3520282e6f5717214004a7f26888": {
+                    "balance": "642744083856292483",
+                    "weight": "0.125"
+                },
+                "0xc011a73ee8576fb46f5e1c5751ca3b9fe0af2a6f": {
+                    "balance": "22056893760322547128",
+                    "weight": "0.125"
+                },
+                "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2": {
+                    "balance": "65185802710414326",
+                    "weight": "0.125"
+                }
+            },
+            "fee": "0.01",
+            "cost": {
+                "amount": "18218317803240000",
+                "token": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2"
+            },
+            "mandatory": false
+        },
+        "62": {
+            "kind": "WeightedProduct",
+            "reserves": {
+                "0x0cec1a9154ff802e7934fc916ed7ca50bde6844e": {
+                    "balance": "1323022835451454464",
+                    "weight": "0.125"
+                },
+                "0x2ba592f78db6436527729929aaf6c908497cb200": {
+                    "balance": "116336086512748935",
+                    "weight": "0.125"
+                },
+                "0x584bc13c7d411c00c01a62e8019472de68768430": {
+                    "balance": "141036217583192977284",
+                    "weight": "0.125"
+                },
+                "0x6dea81c8171d0ba574754ef6f8b412f2ed88c54d": {
+                    "balance": "3445869595333991036",
+                    "weight": "0.125"
+                },
+                "0xbb0e17ef65f82ab018d8edd776e8dd940327b28b": {
+                    "balance": "357074814445131181",
+                    "weight": "0.125"
+                },
+                "0xbc396689893d065f41bc2c6ecbee5e0085233447": {
+                    "balance": "1716769196951307697",
+                    "weight": "0.125"
+                },
+                "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2": {
+                    "balance": "7299340300623796",
+                    "weight": "0.125"
+                },
+                "0xdbdb4d16eda451d0503b854cf79d55697f90c8df": {
+                    "balance": "58695222530853431",
+                    "weight": "0.125"
+                }
+            },
+            "fee": "0.02",
+            "cost": {
+                "amount": "18218317803240000",
+                "token": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2"
+            },
+            "mandatory": false
+        },
+        "64": {
+            "kind": "WeightedProduct",
+            "reserves": {
+                "0x3ec8798b81485a254928b70cda1cf0a2bb0b74d7": {
+                    "balance": "526123668630068660110404",
+                    "weight": "0.8"
+                },
+                "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2": {
+                    "balance": "287112935901048126584",
+                    "weight": "0.2"
+                }
+            },
+            "fee": "0.0036",
+            "cost": {
+                "amount": "18218317803240000",
+                "token": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2"
+            },
+            "mandatory": false
+        },
+        "65": {
+            "kind": "WeightedProduct",
+            "reserves": {
+                "0x6b175474e89094c44da98b954eedeac495271d0f": {
+                    "balance": "1191959749018354276837",
+                    "weight": "0.4"
+                },
+                "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2": {
+                    "balance": "392171457910841840",
+                    "weight": "0.6"
+                }
+            },
+            "fee": "0.0025",
+            "cost": {
+                "amount": "18218317803240000",
+                "token": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2"
+            },
+            "mandatory": false
+        },
+        "66": {
+            "kind": "WeightedProduct",
+            "reserves": {
+                "0x2260fac5e5542a773aa44fbcfedf7c193bc2c599": {
+                    "balance": "7886892",
+                    "weight": "0.5"
+                },
+                "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2": {
+                    "balance": "1126985534364820699",
+                    "weight": "0.5"
+                }
+            },
+            "fee": "0.0004",
+            "cost": {
+                "amount": "18218317803240000",
+                "token": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2"
+            },
+            "mandatory": false
+        },
+        "67": {
+            "kind": "WeightedProduct",
+            "reserves": {
+                "0x0cec1a9154ff802e7934fc916ed7ca50bde6844e": {
+                    "balance": "264886",
+                    "weight": "0.125"
+                },
+                "0x2ba592f78db6436527729929aaf6c908497cb200": {
+                    "balance": "19366",
+                    "weight": "0.125"
+                },
+                "0x584bc13c7d411c00c01a62e8019472de68768430": {
+                    "balance": "38098545",
+                    "weight": "0.125"
+                },
+                "0xba100000625a3754423978a60c9317c58a424e3d": {
+                    "balance": "146482",
+                    "weight": "0.125"
+                },
+                "0xbc396689893d065f41bc2c6ecbee5e0085233447": {
+                    "balance": "319636",
+                    "weight": "0.125"
+                },
+                "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2": {
+                    "balance": "1206",
+                    "weight": "0.125"
+                },
+                "0xdbdb4d16eda451d0503b854cf79d55697f90c8df": {
+                    "balance": "9873",
+                    "weight": "0.125"
+                },
+                "0xf5d669627376ebd411e34b98f19c868c8aba5ada": {
+                    "balance": "563339",
+                    "weight": "0.125"
+                }
+            },
+            "fee": "0.005",
+            "cost": {
+                "amount": "18218317803240000",
+                "token": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2"
+            },
+            "mandatory": false
+        },
+        "70": {
+            "kind": "WeightedProduct",
+            "reserves": {
+                "0x0bc529c00c6401aef6d220be8c6ea1667f6ad93e": {
+                    "balance": "6360630516800005448",
+                    "weight": "0.125"
+                },
+                "0x1f9840a85d5af5bf1d1762f925bdaddc4201f984": {
+                    "balance": "8600510230735290526694",
+                    "weight": "0.125"
+                },
+                "0x6b3595068778dd592e39a122f4f5a5cf09c90fe2": {
+                    "balance": "19557650598562732453526",
+                    "weight": "0.125"
+                },
+                "0x7fc66500c84a76ad7e9c93437bfc5ac33e2ddae9": {
+                    "balance": "689193422058489015058",
+                    "weight": "0.125"
+                },
+                "0x9f8f72aa9304c8b593d555f12ef6589cc3a579a2": {
+                    "balance": "73222575681890606005",
+                    "weight": "0.125"
+                },
+                "0xba100000625a3754423978a60c9317c58a424e3d": {
+                    "balance": "8848294720356512217529",
+                    "weight": "0.125"
+                },
+                "0xc00e94cb662c3520282e6f5717214004a7f26888": {
+                    "balance": "653880188325182856471",
+                    "weight": "0.125"
+                },
+                "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2": {
+                    "balance": "45805470997472497422",
+                    "weight": "0.125"
+                }
+            },
+            "fee": "0.0015",
+            "cost": {
+                "amount": "18218317803240000",
+                "token": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2"
+            },
+            "mandatory": false
+        },
+        "71": {
+            "kind": "WeightedProduct",
+            "reserves": {
+                "0x04fa0d235c4abf4bcf4787af4cf447de572ef828": {
+                    "balance": "4562300116085354789",
+                    "weight": "0.125"
+                },
+                "0x0bc529c00c6401aef6d220be8c6ea1667f6ad93e": {
+                    "balance": "1256657629424214",
+                    "weight": "0.125"
+                },
+                "0x1f9840a85d5af5bf1d1762f925bdaddc4201f984": {
+                    "balance": "2107829214730689206",
+                    "weight": "0.125"
+                },
+                "0x514910771af9ca656af840dff83e8264ecf986ca": {
+                    "balance": "1949409240792221736",
+                    "weight": "0.125"
+                },
+                "0x7fc66500c84a76ad7e9c93437bfc5ac33e2ddae9": {
+                    "balance": "154339756888995831",
+                    "weight": "0.125"
+                },
+                "0x9f8f72aa9304c8b593d555f12ef6589cc3a579a2": {
+                    "balance": "17270757086778536",
+                    "weight": "0.125"
+                },
+                "0xc011a73ee8576fb46f5e1c5751ca3b9fe0af2a6f": {
+                    "balance": "5313162734654351870",
+                    "weight": "0.125"
+                },
+                "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2": {
+                    "balance": "18972472132080956",
+                    "weight": "0.125"
+                }
+            },
+            "fee": "0.0015",
+            "cost": {
+                "amount": "18218317803240000",
+                "token": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2"
+            },
+            "mandatory": false
+        },
+        "72": {
+            "kind": "WeightedProduct",
+            "reserves": {
+                "0x03ab458634910aad20ef5f1c8ee96f1d6ac54919": {
+                    "balance": "1428563",
+                    "weight": "0.1"
+                },
+                "0x0bc529c00c6401aef6d220be8c6ea1667f6ad93e": {
+                    "balance": "84",
+                    "weight": "0.07"
+                },
+                "0x1f9840a85d5af5bf1d1762f925bdaddc4201f984": {
+                    "balance": "153848",
+                    "weight": "0.1"
+                },
+                "0x61d5dc44849c9c87b0856a2a311536205c96c7fd": {
+                    "balance": "620",
+                    "weight": "0.1"
+                },
+                "0x6b175474e89094c44da98b954eedeac495271d0f": {
+                    "balance": "11451302",
+                    "weight": "0.15"
+                },
+                "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48": {
+                    "balance": "1",
+                    "weight": "0.13"
+                },
+                "0xba100000625a3754423978a60c9317c58a424e3d": {
+                    "balance": "205095",
+                    "weight": "0.2"
+                },
+                "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2": {
+                    "balance": "3853",
+                    "weight": "0.15"
+                }
+            },
+            "fee": "0.005",
+            "cost": {
+                "amount": "18218317803240000",
+                "token": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2"
+            },
+            "mandatory": false
+        },
+        "73": {
+            "kind": "WeightedProduct",
+            "reserves": {
+                "0x1494ca1f11d487c2bbe4543e90080aeba4ba3c2b": {
+                    "balance": "3164376648598059407977",
+                    "weight": "0.333333333333333333"
+                },
+                "0x2260fac5e5542a773aa44fbcfedf7c193bc2c599": {
+                    "balance": "1958244918",
+                    "weight": "0.333333333333333333"
+                },
+                "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2": {
+                    "balance": "268158881165489243255",
+                    "weight": "0.333333333333333334"
+                }
+            },
+            "fee": "0.005",
+            "cost": {
+                "amount": "18218317803240000",
+                "token": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2"
+            },
+            "mandatory": false
+        },
+        "74": {
+            "kind": "WeightedProduct",
+            "reserves": {
+                "0x0cec1a9154ff802e7934fc916ed7ca50bde6844e": {
+                    "balance": "449552",
+                    "weight": "0.125"
+                },
+                "0x2ba592f78db6436527729929aaf6c908497cb200": {
+                    "balance": "21075",
+                    "weight": "0.125"
+                },
+                "0x584bc13c7d411c00c01a62e8019472de68768430": {
+                    "balance": "46267562",
+                    "weight": "0.125"
+                },
+                "0xba100000625a3754423978a60c9317c58a424e3d": {
+                    "balance": "151005",
+                    "weight": "0.125"
+                },
+                "0xbb0e17ef65f82ab018d8edd776e8dd940327b28b": {
+                    "balance": "103077",
+                    "weight": "0.125"
+                },
+                "0xbc396689893d065f41bc2c6ecbee5e0085233447": {
+                    "balance": "374162",
+                    "weight": "0.125"
+                },
+                "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2": {
+                    "balance": "1796",
+                    "weight": "0.125"
+                },
+                "0xdbdb4d16eda451d0503b854cf79d55697f90c8df": {
+                    "balance": "13944",
+                    "weight": "0.125"
+                }
+            },
+            "fee": "0.005",
+            "cost": {
+                "amount": "18218317803240000",
+                "token": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2"
+            },
+            "mandatory": false
+        },
+        "75": {
+            "kind": "WeightedProduct",
+            "reserves": {
+                "0x1b40183efb4dd766f11bda7a7c3ad8982e998421": {
+                    "balance": "5861",
+                    "weight": "0.1"
+                },
+                "0x6b175474e89094c44da98b954eedeac495271d0f": {
+                    "balance": "50373",
+                    "weight": "0.1"
+                },
+                "0x86ed939b500e121c0c5f493f399084db596dad20": {
+                    "balance": "9352828",
+                    "weight": "0.6"
+                },
+                "0xa3d58c4e56fedcae3a7c43a725aee9a71f0ece4e": {
+                    "balance": "11459",
+                    "weight": "0.1"
+                },
+                "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2": {
+                    "balance": "16",
+                    "weight": "0.1"
+                }
+            },
+            "fee": "0.005",
+            "cost": {
+                "amount": "18218317803240000",
+                "token": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2"
+            },
+            "mandatory": false
+        },
+        "76": {
+            "kind": "WeightedProduct",
+            "reserves": {
+                "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2": {
+                    "balance": "78494462501807373768",
+                    "weight": "0.5"
+                },
+                "0xdac17f958d2ee523a2206206994597c13d831ec7": {
+                    "balance": "360779868083",
+                    "weight": "0.5"
+                }
+            },
+            "fee": "0.0022",
+            "cost": {
+                "amount": "18218317803240000",
+                "token": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2"
+            },
+            "mandatory": false
+        },
+        "77": {
+            "kind": "WeightedProduct",
+            "reserves": {
+                "0x2260fac5e5542a773aa44fbcfedf7c193bc2c599": {
+                    "balance": "244816442408",
+                    "weight": "0.5"
+                },
+                "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2": {
+                    "balance": "33958572239597347465366",
+                    "weight": "0.5"
+                }
+            },
+            "fee": "0.0016",
+            "cost": {
+                "amount": "18218317803240000",
+                "token": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2"
+            },
+            "mandatory": false
+        },
+        "79": {
+            "kind": "WeightedProduct",
+            "reserves": {
+                "0x6b175474e89094c44da98b954eedeac495271d0f": {
+                    "balance": "44156347508425968630142994",
+                    "weight": "0.4"
+                },
+                "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2": {
+                    "balance": "14425071552047960804842",
+                    "weight": "0.6"
+                }
+            },
+            "fee": "0.0021",
+            "cost": {
+                "amount": "18218317803240000",
+                "token": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2"
+            },
+            "mandatory": false
+        },
+        "80": {
+            "kind": "WeightedProduct",
+            "reserves": {
+                "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2": {
+                    "balance": "11258945242628470226",
+                    "weight": "0.2"
+                },
+                "0xf65b5c5104c4fafd4b709d9d60a185eae063276c": {
+                    "balance": "745274112905587466636994",
+                    "weight": "0.8"
+                }
+            },
+            "fee": "0.0015",
+            "cost": {
+                "amount": "18218317803240000",
+                "token": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2"
+            },
+            "mandatory": false
+        },
+        "81": {
+            "kind": "WeightedProduct",
+            "reserves": {
+                "0xc00e94cb662c3520282e6f5717214004a7f26888": {
+                    "balance": "7023489501333501541452",
+                    "weight": "0.5"
+                },
+                "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2": {
+                    "balance": "487792715768814302631",
+                    "weight": "0.5"
+                }
+            },
+            "fee": "0.0025",
+            "cost": {
+                "amount": "18218317803240000",
+                "token": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2"
+            },
+            "mandatory": false
+        },
+        "82": {
+            "kind": "WeightedProduct",
+            "reserves": {
+                "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48": {
+                    "balance": "17326081568950",
+                    "weight": "0.5"
+                },
+                "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2": {
+                    "balance": "3786545025107726304660",
+                    "weight": "0.5"
+                }
+            },
+            "fee": "0.0022",
+            "cost": {
+                "amount": "18218317803240000",
+                "token": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2"
+            },
+            "mandatory": false
+        },
+        "83": {
+            "kind": "WeightedProduct",
+            "reserves": {
+                "0x6b175474e89094c44da98b954eedeac495271d0f": {
+                    "balance": "28595840",
+                    "weight": "0.5"
+                },
+                "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2": {
+                    "balance": "8809",
+                    "weight": "0.5"
+                }
+            },
+            "fee": "0.005",
+            "cost": {
+                "amount": "18218317803240000",
+                "token": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2"
+            },
+            "mandatory": false
+        },
+        "84": {
+            "kind": "WeightedProduct",
+            "reserves": {
+                "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2": {
+                    "balance": "154856321343134663971",
+                    "weight": "0.2"
+                },
+                "0xc18360217d8f7ab5e7c516566761ea12ce7f9d72": {
+                    "balance": "50620022026408767536343",
+                    "weight": "0.8"
+                }
+            },
+            "fee": "0.03",
+            "cost": {
+                "amount": "18218317803240000",
+                "token": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2"
+            },
+            "mandatory": false
+        },
+        "85": {
+            "kind": "WeightedProduct",
+            "reserves": {
+                "0x6810e776880c02933d47db1b9fc05908e5386b96": {
+                    "balance": "71383273821092440792592",
+                    "weight": "0.8"
+                },
+                "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2": {
+                    "balance": "1817644121365073793370",
+                    "weight": "0.2"
+                }
+            },
+            "fee": "0.0024",
+            "cost": {
+                "amount": "18218317803240000",
+                "token": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2"
+            },
+            "mandatory": false
+        },
+        "87": {
+            "kind": "WeightedProduct",
+            "reserves": {
+                "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2": {
+                    "balance": "6158022349654322",
+                    "weight": "0.5"
+                },
+                "0xdac17f958d2ee523a2206206994597c13d831ec7": {
+                    "balance": "23372424",
+                    "weight": "0.5"
+                }
+            },
+            "fee": "0.001",
+            "cost": {
+                "amount": "18218317803240000",
+                "token": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2"
+            },
+            "mandatory": false
+        },
+        "88": {
+            "kind": "WeightedProduct",
+            "reserves": {
+                "0x9f8f72aa9304c8b593d555f12ef6589cc3a579a2": {
+                    "balance": "7810075454209764024902",
+                    "weight": "0.6"
+                },
+                "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2": {
+                    "balance": "3261462102267222677936",
+                    "weight": "0.4"
+                }
+            },
+            "fee": "0.0027",
+            "cost": {
+                "amount": "18218317803240000",
+                "token": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2"
+            },
+            "mandatory": false
+        },
+        "89": {
+            "kind": "Stable",
+            "reserves": {
+                "0x6b175474e89094c44da98b954eedeac495271d0f": "59003807328814345461489603",
+                "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48": "55195293220968",
+                "0xdac17f958d2ee523a2206206994597c13d831ec7": "43428254604549"
+            },
+            "scaling_rates": {
+                "0x6b175474e89094c44da98b954eedeac495271d0f": "1000000000000000000",
+                "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48": "1000000",
+                "0xdac17f958d2ee523a2206206994597c13d831ec7": "1000000"
+            },
+            "amplification_parameter": "620",
+            "fee": "0.0001",
+            "cost": {
+                "amount": "18218317803240000",
+                "token": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2"
+            },
+            "mandatory": false
+        }
+    },
+    "metadata": {
+        "environment": "Ethereum"
+    }
+}

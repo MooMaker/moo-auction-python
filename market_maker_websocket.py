@@ -5,7 +5,7 @@ import json
 
 class MarketMakerWebsocket:
     def __init__(self):
-        self.auctions = {} #TODO move this to seperate module or use a database
+        self.auctions = {} #TODO: move this to seperate module or use a database
         self.connections = [] # Store WebSocket connections
 
 

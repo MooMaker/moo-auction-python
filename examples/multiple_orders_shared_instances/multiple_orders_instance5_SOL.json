@@ -1,0 +1,70 @@
+{
+    "amms": {
+        "33": {
+            "cost": {
+                "amount": "13594502594087632",
+                "token": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2"
+            },
+            "execution": [
+                {
+                    "buy_token": "0x514910771af9ca656af840dff83e8264ecf986ca",
+                    "exec_buy_amount": "535926598181962425438",
+                    "exec_plan": {
+                        "position": 0,
+                        "sequence": 0
+                    },
+                    "exec_sell_amount": "3942190947719697913",
+                    "sell_token": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2"
+                }
+            ],
+            "fee": "0.003000",
+            "kind": "ConstantProduct",
+            "mandatory": false,
+            "reserves": {
+                "0x514910771af9ca656af840dff83e8264ecf986ca": "2.331222e+24",
+                "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2": "1.720364e+22"
+            }
+        }
+    },
+    "metadata": {
+        "has_solution": true,
+        "result": "Optimal"
+    },
+    "orders": {
+        "10": {
+            "allow_partial_fill": false,
+            "buy_amount": "3922578057432536136",
+            "buy_token": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+            "cost": {
+                "amount": "9520142767666230",
+                "token": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2"
+            },
+            "exec_buy_amount": "3942190947719697913",
+            "exec_sell_amount": "535926598181962410789",
+            "fee": {
+                "amount": "5013317901105432576",
+                "token": "0x514910771af9ca656af840dff83e8264ecf986ca"
+            },
+            "is_liquidity_order": false,
+            "is_sell_order": true,
+            "mandatory": false,
+            "sell_amount": "535926598181962410789",
+            "sell_token": "0x514910771af9ca656af840dff83e8264ecf986ca"
+        }
+    },
+    "prices": {
+        "0x514910771af9ca656af840dff83e8264ecf986ca": "7355841193724838",
+        "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2": "1000000000000000000"
+    },
+    "ref_token": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+    "tokens": {
+        "0x514910771af9ca656af840dff83e8264ecf986ca": {
+            "alias": "LINK",
+            "decimals": 18
+        },
+        "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2": {
+            "alias": "WETH",
+            "decimals": 18
+        }
+    }
+}

@@ -1,0 +1,70 @@
+{
+    "amms": {
+        "2": {
+            "cost": {
+                "amount": "10720376420138000",
+                "token": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2"
+            },
+            "execution": [
+                {
+                    "buy_token": "0x8a74bc8c372bc7f0e9ca3f6ac0df51be15aec47a",
+                    "exec_buy_amount": "5064402441259872605865",
+                    "exec_plan": {
+                        "position": 0,
+                        "sequence": 0
+                    },
+                    "exec_sell_amount": "504310613151317977",
+                    "sell_token": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2"
+                }
+            ],
+            "fee": "0.003000",
+            "kind": "ConstantProduct",
+            "mandatory": false,
+            "reserves": {
+                "0x8a74bc8c372bc7f0e9ca3f6ac0df51be15aec47a": "1.580203e+24",
+                "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2": "1.583336e+20"
+            }
+        }
+    },
+    "metadata": {
+        "has_solution": true,
+        "result": "Optimal"
+    },
+    "orders": {
+        "0": {
+            "allow_partial_fill": false,
+            "buy_amount": "494393681426857490",
+            "buy_token": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+            "cost": {
+                "amount": "7507410685788750",
+                "token": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2"
+            },
+            "exec_buy_amount": "504310613151317977",
+            "exec_sell_amount": "5064402441259872801408",
+            "fee": {
+                "amount": "246422766269328654336",
+                "token": "0x8a74bc8c372bc7f0e9ca3f6ac0df51be15aec47a"
+            },
+            "is_liquidity_order": false,
+            "is_sell_order": true,
+            "mandatory": false,
+            "sell_amount": "5064402441259872801408",
+            "sell_token": "0x8a74bc8c372bc7f0e9ca3f6ac0df51be15aec47a"
+        }
+    },
+    "prices": {
+        "0x8a74bc8c372bc7f0e9ca3f6ac0df51be15aec47a": "99579490176902",
+        "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2": "1000000000000000000"
+    },
+    "ref_token": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+    "tokens": {
+        "0x8a74bc8c372bc7f0e9ca3f6ac0df51be15aec47a": {
+            "alias": "PLSPAD",
+            "decimals": 18
+        },
+        "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2": {
+            "alias": "WETH",
+            "decimals": 18
+        }
+    }
+}

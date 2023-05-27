@@ -1,0 +1,64 @@
+{
+    "amms": {},
+    "metadata": {
+        "has_solution": true,
+        "result": "Optimal"
+    },
+    "orders": {
+        "0": {
+            "allow_partial_fill": false,
+            "buy_amount": "145292460311193094",
+            "buy_token": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+            "cost": {
+                "amount": "7509930702474510",
+                "token": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2"
+            },
+            "exec_buy_amount": "145531492214861780",
+            "exec_sell_amount": "695421962",
+            "fee": {
+                "amount": "189201489",
+                "token": "0xdac17f958d2ee523a2206206994597c13d831ec7"
+            },
+            "is_liquidity_order": false,
+            "is_sell_order": true,
+            "mandatory": false,
+            "sell_amount": "695421962",
+            "sell_token": "0xdac17f958d2ee523a2206206994597c13d831ec7"
+        },
+        "1": {
+            "allow_partial_fill": false,
+            "buy_amount": "695421962",
+            "buy_token": "0xdac17f958d2ee523a2206206994597c13d831ec7",
+            "cost": {
+                "amount": "7509930702474510",
+                "token": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2"
+            },
+            "exec_buy_amount": "695421962",
+            "exec_sell_amount": "145531492235625021",
+            "fee": {
+                "amount": "24616560091985016",
+                "token": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2"
+            },
+            "is_liquidity_order": true,
+            "is_sell_order": false,
+            "mandatory": false,
+            "sell_amount": "145531492235625021",
+            "sell_token": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2"
+        }
+    },
+    "prices": {
+        "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2": "1000000000000000000",
+        "0xdac17f958d2ee523a2206206994597c13d831ec7": "209270773957613049204661900"
+    },
+    "ref_token": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+    "tokens": {
+        "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2": {
+            "alias": "WETH",
+            "decimals": 18
+        },
+        "0xdac17f958d2ee523a2206206994597c13d831ec7": {
+            "alias": "USDT",
+            "decimals": 6
+        }
+    }
+}

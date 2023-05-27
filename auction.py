@@ -23,9 +23,10 @@ class Auction:
         best_bid = self.best_bid[order_id]
         is_sell_order = self.is_sell_order[order_id]
 
-        print("Adding bid")
+        print("Comparing bid")
         if best_bid == {} \
-        or (is_sell_order and new_bid.get("amountIn") > best_bid.get("amountIn")) \
-        or (not is_sell_order and new_bid.get("amountIn") < best_bid.get("amountIn")):
+        or (is_sell_order and int(new_bid.get("amountIn")) > int(best_bid.get("amountIn"))) \
+        or (not is_sell_order and int(new_bid.get("amountIn")) < int(best_bid.get("amountIn"))):
+            print("Updating best_bird for order " + str(order_id))
             self.best_bid[order_id] = new_bid
 

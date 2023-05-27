@@ -1,0 +1,104 @@
+{
+  "orders": {
+    "0": {
+      "exec_sell_amount": "16365031114",
+      "exec_buy_amount": "9107530323420107581510",
+      "cost": {
+        "amount": "709974223929495",
+        "token": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2"
+      },
+      "fee": {
+        "amount": "6398722",
+        "token": "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48"
+      },
+      "exec_plan": null
+    }
+  },
+  "foreign_liquidity_orders": [],
+  "amms": {
+    "24": {
+      "execution": [
+        {
+          "sell_token": "0x5a98fcbea516cf06857215779fd812ca3bef1b32",
+          "buy_token": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+          "exec_sell_amount": "1492000118603970542212",
+          "exec_buy_amount": "1671395306146417736",
+          "exec_plan": {
+            "sequence": 0,
+            "position": 2
+          }
+        }
+      ],
+      "cost": {
+        "amount": "965378658613383",
+        "token": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2"
+      }
+    }
+  },
+  "ref_token": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+  "prices": {
+    "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48": "629146635278481960296630859",
+    "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2": "1000000000000000000",
+    "0x5a98fcbea516cf06857215779fd812ca3bef1b32": "1130493547205052"
+  },
+  "approvals": [
+    {
+      "token": "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48",
+      "spender": "0xe592427a0aece92de3edee1f18e0157c05861564",
+      "amount": "16365031114"
+    },
+    {
+      "token": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+      "spender": "0xe592427a0aece92de3edee1f18e0157c05861564",
+      "amount": "8529173770213130723"
+    }
+  ],
+  "interaction_data": [
+    {
+      "target": "0xe592427a0aece92de3edee1f18e0157c05861564",
+      "value": "0x0",
+      "call_data": "0x414bf389000000000000000000000000a0b86991c6218b36c1d19d4a2e9eb0ce3606eb48000000000000000000000000c02aaa39b223fe8d0a0e5c4f27ead9083c756cc200000000000000000000000000000000000000000000000000000000000001f40000000000000000000000009008d19f58aabd9ed0d60971565aa8510560ab410000000000000000000000000000000000000000000000001714bbfb3d00aef900000000000000000000000000000000000000000000000000000003cf6e8eca0000000000000000000000000000000000000000000000008d16e6fc236eac1d0000000000000000000000000000000000000000000000000000000000000000",
+      "inputs": [
+        {
+          "amount": "16365031114",
+          "token": "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48"
+        }
+      ],
+      "outputs": [
+        {
+          "amount": "10200569076357266951",
+          "token": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2"
+        }
+      ],
+      "exec_plan": {
+        "sequence": 0,
+        "position": 0
+      }
+    },
+    {
+      "target": "0xe592427a0aece92de3edee1f18e0157c05861564",
+      "value": "0x0",
+      "call_data": "0x414bf389000000000000000000000000c02aaa39b223fe8d0a0e5c4f27ead9083c756cc20000000000000000000000005a98fcbea516cf06857215779fd812ca3bef1b320000000000000000000000000000000000000000000000000000000000000bb80000000000000000000000009008d19f58aabd9ed0d60971565aa8510560ab410000000000000000000000000000000000000000000000001714bbfb3d01a040000000000000000000000000000000000000000000000000765db65ac12201e300000000000000000000000000000000000000000000019b766c55e5a69a0f710000000000000000000000000000000000000000000000000000000000000000",
+      "inputs": [
+        {
+          "amount": "8529173770213130723",
+          "token": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2"
+        }
+      ],
+      "outputs": [
+        {
+          "amount": "7615530204816137405588",
+          "token": "0x5a98fcbea516cf06857215779fd812ca3bef1b32"
+        }
+      ],
+      "exec_plan": {
+        "sequence": 0,
+        "position": 1
+      }
+    }
+  ],
+  "metadata": {
+    "has_solution": true,
+    "result": "Optimal"
+  }
+}

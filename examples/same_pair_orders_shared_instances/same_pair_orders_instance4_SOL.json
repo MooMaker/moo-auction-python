@@ -1,0 +1,69 @@
+{
+    "amms": {},
+    "metadata": {
+        "has_solution": true,
+        "result": "Optimal"
+    },
+    "orders": {
+        "0": {
+            "allow_partial_fill": false,
+            "buy_amount": "12094035001",
+            "buy_token": "0xdac17f958d2ee523a2206206994597c13d831ec7",
+            "cost": {
+                "amount": "7769231480270055",
+                "token": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2"
+            },
+            "exec_buy_amount": "12151342906",
+            "exec_sell_amount": "12166059686",
+            "fee": {
+                "amount": "133297921",
+                "token": "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48"
+            },
+            "is_liquidity_order": false,
+            "is_sell_order": true,
+            "mandatory": false,
+            "sell_amount": "12166059686",
+            "sell_token": "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48"
+        },
+        "1": {
+            "allow_partial_fill": false,
+            "buy_amount": "12166059686",
+            "buy_token": "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48",
+            "cost": {
+                "amount": "7769231480270055",
+                "token": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2"
+            },
+            "exec_buy_amount": "12166059686",
+            "exec_sell_amount": "12151342906",
+            "fee": {
+                "amount": "144343862",
+                "token": "0xdac17f958d2ee523a2206206994597c13d831ec7"
+            },
+            "is_liquidity_order": true,
+            "is_sell_order": false,
+            "mandatory": false,
+            "sell_amount": "12151342906",
+            "sell_token": "0xdac17f958d2ee523a2206206994597c13d831ec7"
+        }
+    },
+    "prices": {
+        "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48": "217782113444517026280425093",
+        "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2": "1000000000000000000",
+        "0xdac17f958d2ee523a2206206994597c13d831ec7": "218045874536124885082244873"
+    },
+    "ref_token": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+    "tokens": {
+        "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48": {
+            "alias": "USDC",
+            "decimals": 6
+        },
+        "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2": {
+            "alias": "WETH",
+            "decimals": 18
+        },
+        "0xdac17f958d2ee523a2206206994597c13d831ec7": {
+            "alias": "USDT",
+            "decimals": 6
+        }
+    }
+}
