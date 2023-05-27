@@ -1,7 +1,8 @@
 import asyncio
+import json
+
 from websockets.server import serve
 
-import json
 
 class MarketMakerWebsocket:
     def __init__(self):
@@ -41,6 +42,15 @@ class MarketMakerWebsocket:
     async def forward_auction(self, message):
         for ws in self.connections:
             await ws.send(json.dumps(message))
+
+    async  def publish_results(self, auction_id, win):
+        results = {}
+        if (win):
+            results = self.auctions[auction_id].get_results()
+
+        print(results)
+        for ws in self.connections:
+            await ws.send(json.dumps(results))
 
     async def websocket(self):
         async with serve(self.receive_bids, "localhost", 8765):

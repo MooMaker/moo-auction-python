@@ -57,3 +57,10 @@ class Auction:
 
         return True
 
+    def get_results(self):
+        # This returns the results without makerSignatures
+        results = {}
+        for order_id in self.best_bid:
+            results[order_id] = self.best_bid[order_id]
+            del results[order_id]['makerSignature']
+
