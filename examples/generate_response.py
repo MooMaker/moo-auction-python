@@ -29,7 +29,7 @@ def generate_response(filepath):
 
 def write_file(response_dict):
     # Serializing json
-    json_object = json.dumps(response_dict)
+    json_object = json.dumps(response_dict, indent=2)
 
     # Writing to sample.json
     with open("sample.json", "w") as outfile:
