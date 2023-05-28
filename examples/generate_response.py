@@ -1,25 +1,31 @@
+import hashlib
 import json
 import random
+import secrets
+import string
+
+from coincurve import PublicKey
 
 
-def generate_three_responses(filepath):
-    market_makers = [
-        ["0x742d35Cc6634C0532925a3b844Bc454e4438f44e",
-         "0xea2ba7a7a8fc1c0ef93aec9833fde9f8bd425ddec45090cdd0c86a1bc75dd0f825e2a3e978d46a18f5ea9a61c09d52849d547c0f41ca6fae7480835307352a241b"],
-        ["0x8165049D60CAE302F0540134Dcf0939e0Fbf142f",
-         "0xf86c0a8502540be400825208944bbeeb066ed09b7aed07bf39eee0460dfa261520880de0b6b3a7640000801ca0f3ae52c1ef3300f44df0bcfd1341c232ed613467"],
-        ["0x11FFb891f7f40Af61FAeC19eB05C58a32d1b2D2D",
-         "a0f3ae52c1ef3300f44df0bcfd1341c232ed6134672b16e35699ae3f5fe2493379a023d23d2955a239dd6f61c4e8b2678d174356ff424eac53da53e17706c43ef871"],
-    ]
-    for i in range(len(market_makers)):
+def generate_maker_address():
+    private_key = hashlib.sha256(secrets.token_bytes(32)).digest()
+    public_key = PublicKey.from_valid_secret(private_key).format(compressed=False)[1:]
+    addr = hashlib.sha256(public_key).digest()[-20:]
+    return "0x" + addr.hex()
+
+def generate_fake_signature():
+    return ''.join(random.choices(string.ascii_lowercase + string.digits, k=132))
+
+def generate_multiple_responses(filepath, number_of_responses):
+    for i in range(number_of_responses):
         split_filepath = filepath.split("_input")
-        generate_response(filepath, market_makers[i], split_filepath[0] + "_response" + str(i+1) + split_filepath[1])
+        generate_response(filepath, generate_maker_address(), split_filepath[0] + "_response" + str(i+1) + split_filepath[1])
 
 
-def generate_response(filepath, market_maker, filename="sample.json"):
-    response = {}
+def generate_response(filepath, maker_address=generate_maker_address(), filename="sample.json"):
     cow_file = open(filepath)
     cow_json = json.load(cow_file)
+    response = {"metadata": {"auction_id": cow_json["metadata"]["auction_id"]}, "bids": {}}
     orders = cow_json["orders"]
     for order_id in orders:
         order = orders[order_id]
@@ -34,14 +40,12 @@ def generate_response(filepath, market_maker, filename="sample.json"):
             amountIn = order["buy_amount"]
             amountOut = order["sell_amount"]
         validTo = 1628035200
-        makerAddress = market_maker[0],
-        makerSignature = market_maker[0]
 
         # Randomize amountInt a little bit
         amountIn = str(int(int(amountIn) * (100+random.randint(-5,5))/100))
 
-        response[order_id] = {"tokenIn": tokenIn, "tokenOut": tokenOut, "amountIn": amountIn, "amountOut": amountOut,
-                              "validTo": validTo, "makerAddress": makerAddress, "makerSignature": makerSignature }
+        response["bids"][order_id] = {"tokenIn": tokenIn, "tokenOut": tokenOut, "amountIn": amountIn, "amountOut": amountOut,
+                              "validTo": validTo, "makerAddress": maker_address, "makerSignature": generate_fake_signature()}
 
     return write_file(response, filename)
 
@@ -53,4 +57,7 @@ def write_file(response_dict, filename="sample.json"):
     with open(filename, "w") as outfile:
         outfile.write(json_object)
 
-generate_three_responses('../examples/same_pair_orders_shared_instances/same_pair_orders_instance2_input.json')
+
+# # Use this to generate responses for given inputs. Outputs are placed in same directory as input file.
+# generate_multiple_responses('../examples/single_order_shared_instances/single_order_instance1_input.json',3)
+# generate_multiple_responses('../examples/single_order_shared_instances/single_order_instance2_input.json',3)

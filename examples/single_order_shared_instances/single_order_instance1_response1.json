@@ -1,13 +1,16 @@
 {
-  "0": {
-    "tokenIn": "0x752efadc0a7e05ad1bcccda22c141d01a75ef1e4",
-    "tokenOut": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
-    "amountIn": "296635689186984646942",
-    "amountOut": "408457178963175500",
-    "validTo": 1628035200,
-    "makerAddress": [
-      "0x742d35Cc6634C0532925a3b844Bc454e4438f44e"
-    ],
-    "makerSignature": "0x742d35Cc6634C0532925a3b844Bc454e4438f44e"
+  "metadata": {
+    "auction_id": 0
+  },
+  "bids": {
+    "0": {
+      "tokenIn": "0x752efadc0a7e05ad1bcccda22c141d01a75ef1e4",
+      "tokenOut": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+      "amountIn": "299602046078854496256",
+      "amountOut": "408457178963175500",
+      "validTo": 1628035200,
+      "makerAddress": "0x95fb8e910ed1618d44af484a9c58ab6ba1587185",
+      "makerSignature": "em18oekyvx3gl05swpqqx75r87mp3t46v1ko5c1r9f0mcwiw52hqn1ue9ol8zkhlho1wu38qkrh7235ciq8j4p25wass3quxbdtan73mt7gi4sib27y9a8cvdf51s0jm2gko"
+    }
   }
 }
